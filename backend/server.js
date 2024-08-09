@@ -4,7 +4,7 @@ const axios = require("axios");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 const stripe = require("stripe")(
-  "sk_test_51PJ0wqFt8twZCtdFAkCCtwJLxnwqpmL3sChkaDVNMtakr8kxlDJ4DhYJqri5ZwUChb3ZTjc0JyVc5b6SAScjrfni00a2egYVxw"
+  ""
 );
 
 const app = express();
@@ -17,7 +17,7 @@ app.post("/create-payment-intent", async (req, res) => {
 
     // Convert USD to PKR using an exchange rate API
     const exchangeRateResponse = await axios.get(
-      "https://api.exchangerate-api.com/v4/latest/USD"
+      ""
     );
     const exchangeRate = exchangeRateResponse.data.rates.PKR;
     const amountPKR = Math.round(amount * exchangeRate); // Amount in smallest currency unit (cents)
@@ -44,15 +44,15 @@ app.post("/send-email", (req, res) => {
   let transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "aliza.ahmed83@gmail.com",
-      pass: "nonu mlhj wftr miec",
+      user: "",
+      pass: "",
     },
   });
 
   // Define email options
   let mailOptions = {
     from: email,
-    to: "aliza.ahmed83@gmail.com",
+    to: "",
     subject: "New Complaint from Contact Form",
     text: `Name: ${name}\nMessage: ${message}`,
   };
