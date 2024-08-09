@@ -168,7 +168,7 @@ export default function HelpScreen() {
             <ListItem
               title="0300-0000000"
               icon="phone"
-              onPress={"tel:03134157256"}
+              onPress={"tel:"}
             />
           </AccordionItem>
         </List.Section>
@@ -188,7 +188,7 @@ export default function HelpScreen() {
             <ListItem
               title="com-sci-focal@mail.com"
               icon="email"
-              onPress={"mailto:aliza.ahmed83@gmail.com"}
+              onPress={"mailto:"}
             />
           </AccordionItem>
           <AccordionItem title="Pharm-D" icon="account">
@@ -246,7 +246,7 @@ export default function HelpScreen() {
           <ListItem
             title="1122"
             icon="email-outline"
-            onPress={"sms:03103610423"}
+            onPress={"sms:"}
           />
           <ListItem
             title="med-team@mail.com"
