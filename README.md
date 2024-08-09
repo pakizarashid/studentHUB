@@ -1,6 +1,8 @@
 # 🚀 Project: StudentHub - Your University App! 📱
 <br/>
 
+>  <h3>I’m excited to share my final year project, StudentHub - Your University App!, a mobile application designed to streamline the
+>   university experience by bringing all essential resources into one platform. 🎓</h3>
 I’m excited to share my final year project, StudentHub - Your University App!, a mobile application designed to streamline the university experience by bringing all essential resources into one platform. 🎓
 <br/>
 
@@ -38,27 +40,6 @@ Through this project, I learned the importance of time management and discovered
 🚀 Looking Ahead:
 I envision enhancing this app further by making it more secure and integrating AI features. Your feedback or suggestions for collaboration are most welcome! 🤝
 
-
-
-
-
-<div align="center">
-<a href='https://play.google.com/store/apps/details?id=com.umang.stumate&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="35%"></a>
-
-</div>
-
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/saikiran1224/Stumate/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/saikiran1224/Stumate/issues">Request Feature</a>
-</h3>
-
-<br/>
-
->  <h3>This app got featured in the <a href="https://android-developers.googleblog.com/2021/04/google-developer-student-clubs-in-india.html">Google's Official Android Developers Blog</a>  🎉 and 
-> got selected among 297 Campuses across India under Android Study Jams by GDSC GMR Institute of Technology</h3>
 
 <br />
 
