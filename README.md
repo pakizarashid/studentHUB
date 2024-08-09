@@ -40,8 +40,7 @@ We do have alternatives like Google Drive, WhatsApp, Gmail, university website, 
 
 ## 🚀 Looking Ahead:
 I envision enhancing this app further by making it more secure and integrating AI features. Your feedback or suggestions for collaboration are most welcome! 🤝
-
-
+<br/><br/>
 
 ## Screenshots 
 
@@ -49,7 +48,7 @@ I envision enhancing this app further by making it more secure and integrating A
  
  <tr>
    <td width="33.3%">&nbsp;<img src="./readme_assets/SplashScreen.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/2.jpg" alt="Home Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/LoginScreen.jpg" alt="Loagin Screen"></td>
    <td width="33.33%">&nbsp;<img src="./readme_assets/Dashboard.jpg" alt="Dashboard Screen"></td>
  </tr>
  <tr>
@@ -59,14 +58,36 @@ I envision enhancing this app further by making it more secure and integrating A
  </tr>
  
  <tr>
-   <td width="33.3%">&nbsp;<img src="./readme_assets/4.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/5.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/6.jpg" alt="Splash Screen"></td>
+   <td width="33.3%">&nbsp;<img src="./readme_assets/InAppMessages.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/notemenu.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/NoteScreen.jpg" alt="Splash Screen"></td>
  </tr>
  <tr>
-   <td align="center">Class Mates</td>
-   <td align="center">Send Notifications</td>
-   <td align="center">Student Profile</td>
+   <td align="center">Announcements</td>
+   <td align="center">Notes Menu</td>
+   <td align="center">Notes</td>
+ </tr>
+
+ <tr>
+   <td width="33.3%">&nbsp;<img src="./readme_assets/InAppMessages.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/notemenu.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/NoteScreen.jpg" alt="Splash Screen"></td>
+ </tr>
+ <tr>
+   <td align="center">Announcements</td>
+   <td align="center">Notes Menu</td>
+   <td align="center">Notes</td>
+ </tr>
+
+ <tr>
+   <td width="33.3%">&nbsp;<img src="./readme_assets/InAppMessages.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/notemenu.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/NoteScreen.jpg" alt="Splash Screen"></td>
+ </tr>
+ <tr>
+   <td align="center">Announcements</td>
+   <td align="center">Notes Menu</td>
+   <td align="center">Notes</td>
  </tr>
   
 </table>
