@@ -1,0 +1,113 @@
+{
+  "teachers": {
+    "<teacher_id_1>": {
+      "cnic": "30001-0000001-1",
+      "name": "Irfan Khan",
+      "email": "irfan.khan@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "10",
+        "education": "Ph.D in Computer Science"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022"],
+      "teaching_courses": ["course_id_1", "course_id_4"]
+    },
+    "<teacher_id_2>": {
+      "cnic": "30001-0000001-2",
+      "name": "Amir Sheikh",
+      "email": "amir.sheikh@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "16",
+        "education": "Ms in Computer Science & Networking"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022", "EE-B-2020"],
+      "teaching_courses": ["course_id_3", "course_id_6"]
+    },
+    "<teacher_id_3>": {
+      "cnic": "30001-0000001-3",
+      "name": "Usman",
+      "email": "usman@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "6",
+        "education": "Mphill in Computer Science"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022"],
+      "teaching_courses": ["course_id_2"]
+    },
+    "<teacher_id_4>": {
+      "cnic": "30001-0000001-4",
+      "name": "Bushra Zafar",
+      "email": "bushra.zafar@example.com",
+      "personal_info": {
+        "gender": "Female",
+        "designation": "Assistant Professor",
+        "yearsofTeaching": "3",
+        "education": "Ph.D in Computer Science"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022"],
+      "teaching_courses": [
+        { "course_id": "course_id_1", "location": "Building A, Room 105" },
+        { "course_id": "course_id_2", "location": "Building B, Room 207" }
+      ]
+    },
+    "<teacher_id_5>": {
+      "cnic": "30001-0000001-5",
+      "name": "Adeel Zahid",
+      "email": "adeel.zahid@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "10",
+        "education": "Ms in Computer Science"
+      },
+      "classes_list": ["EE-A-2020", "EE-B-2020"],
+      "teaching_courses": ["course_id_7"]
+    },
+    "<teacher_id_6>": {
+      "cnic": "30001-0000001-6",
+      "name": "Uzma Jamil",
+      "email": "uzma.jamil@example.com",
+      "personal_info": {
+        "gender": "Female",
+        "designation": "Lecturer",
+        "yearsofTeaching": "10",
+        "education": "Ph.D in Electrical Engineering"
+      },
+      "classes_list": ["EE-A-2020", "EE-B-2020"],
+      "teaching_courses": [
+        { "course_id": "course_id_3", "location": "Building D, Room 404" }
+      ]
+    },
+    "<teacher_id_7>": {
+      "cnic": "30001-0000001-7",
+      "name": "Khurram Shahzad",
+      "email": "khurram@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "8",
+        "education": "Ms in English"
+      },
+      "classes_list": ["EE-A-2020", "EE-B-2020"],
+      "teaching_courses": ["course_id_5"]
+    },
+    "<teacher_id_8>": {
+      "cnic": "30001-0000001-8",
+      "name": "Sarah Garcia",
+      "email": "sarah.garcia@example.com",
+      "personal_info": {
+        "gender": "Female",
+        "designation": "Lecturer",
+        "yearsofTeaching": "1",
+        "education": "Ms in Signals"
+      },
+      "classes_list": [],
+      "teaching_courses": ["course_id_7"]
+    }
+  }
+}

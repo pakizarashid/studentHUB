@@ -1,0 +1,23 @@
+{
+  "admin": {
+    "email": "admin@gmail.com",
+    "news_and_alerts": {
+      "news_updates": {
+        "<news_id_1>": {
+          "title": "Important Announcement",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "timestamp": "<timestamp>"
+        },
+        "<news_id_2>": {}
+      },
+      "notifications": {
+        "<notification_id_1>": {
+          "title": "Emergency Alert",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "timestamp": "<timestamp>"
+        },
+        "<notification_id_2>": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "students": {
+    "student_id_1": {
+      "cnic": "30000-0000000-1",
+      "name": "Ali Khan",
+      "email": "ali@gmail.com",
+      "class": "CS-A-2020",
+      "personal_info": {
+        "father_name": "Babar",
+        "contact_number": "+1234567870",
+        "date_of_birth": "01-01-2001",
+        "gender": "Male",
+        "address": "123 Main Street, FSD"
+      },
+      "academic_info": {
+        "program": "Computer Science",
+        "degree": "Bachelor's",
+        "session": "2020-2024",
+        "semester": "semester_2",
+        "section": "A",
+        "roll_name": "3001",
+        "registration_number": "2020-UNI-0301",
+        "student_id_card": "Link to student ID card",
+        "class_members": ["student_id_3"],
+        "teacher_list": [
+          "<teacher_id_1>",
+          "<teacher_id_2>",
+          "<teacher_id_3>",
+          "<teacher_id_4>"
+        ],
+        "cgpa": ""
+      },
+      "timetable": [
+        {
+          "day": "Monday",
+          "schedule": { "8:00 AM - 10:00 AM": "course_id_3" }
+        },
+        {
+          "day": "Tuesday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_3",
+            "9:30 AM - 10:00 AM": "course_id_4"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "schedule": { "10:30 AM - 12:30 PM": "course_id_4" }
+        },
+        {
+          "day": "Thursday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_3",
+            "9:30 AM - 10:30 AM": "course_id_4"
+          }
+        },
+        {
+          "day": "Friday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_3",
+            "9:00 AM - 10:00 AM": "course_id_4"
+          }
+        }
+      ],
+      "semesters": {
+        "semester_1": {
+          "fees": 5000,
+          "fee_status": "Paid",
+          "courses": {
+            "course_id_1": {
+              "name": "Introduction to Programming",
+              "credits": 3,
+              "teacher": "<teacher_id_1>",
+              "location": "Building A, Room 103",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "80",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 Nov 2023",
+                  "marks": "6",
+                  "questions": {},
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 7,
+                "midterm": 9,
+                "final": { "theory": 16, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 60,
+                "grade": ""
+              }
+            },
+            "course_id_2": {
+              "name": "Introduction to Computer Science",
+              "credits": 4,
+              "teacher": "<teacher_id_3>",
+              "location": "Building B, Room 205",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "85",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 Dec 2023",
+                  "marks": "20",
+                  "questions": {},
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 16,
+                "final": { "theory": 25, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            }
+          }
+        },
+        "semester_2": {
+          "fees": 5000,
+          "fee_status": "Paid",
+          "courses": {
+            "course_id_3": {
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "teacher": "<teacher_id_2>",
+              "location": "Building A, Room 101",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "74",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 June 2024",
+                  "marks": "4",
+                  "questions": {
+                    "question_1": "What is the difference between a digital and an analog signal?",
+                    "question_2": "What is the difference between a digital and an analog signal?"
+                  },
+                  "pattern": "Upload pdf file."
+                },
+                {
+                  "id": "assignment_id_2",
+                  "title": "Assignment 2",
+                  "deadline": "20 June 2024",
+                  "marks": "10",
+                  "questions": {
+                    "question_1": "What is the difference between a digital and an analog signal?",
+                    "question_2": "What is the difference between a digital and an analog signal?"
+                  },
+                  "pattern": "Upload docx file."
+                }
+              ],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 13,
+                "final": { "theory": 26, "practical": 13 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            },
+            "course_id_4": {
+              "name": "Assembly Language",
+              "credits": 4,
+              "teacher": "<teacher_id_1>",
+              "location": "Building C, Room 301",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "88",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 June 2024",
+                  "marks": "10",
+                  "questions": {
+                    "question_1": "Define Assembly Langugue",
+                    "question_2": "Its role in Industry"
+                  },
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 16,
+                "final": { "theory": 25, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            }
+          }
+        },
+        "semester_3": { "fees": 5000, "fee_status": "" }
+      }
+    },
+    "student_id_2": {
+      "cnic": "30000-0000000-2",
+      "name": "Sara Ahmed",
+      "class": "EE-B-2020",
+      "personal_info": {
+        "father_name": "Ahmed",
+        "contact_number": "+1234567890",
+        "date_of_birth": "01-01-2002",
+        "gender": "Female",
+        "address": "456 Park Avenue, LHR"
+      },
+      "academic_info": {
+        "program": "Electrical Engineering",
+        "degree": "Bachelor's",
+        "session": "2020-2024",
+        "semester": "semester_2",
+        "section": "B",
+        "roll_name": "3016",
+        "registration_number": "2020-UNI-0301",
+        "student_id_card": "Link to student ID card",
+        "class_members": [],
+        "teacher_list": [
+          "<teacher_id_5>",
+          "<teacher_id_6>",
+          "<teacher_id_7>",
+          "<teacher_id_2>"
+        ],
+        "cgpa": ""
+      },
+      "timetable": [
+        {
+          "day": "Monday",
+          "schedule": { "8:00 AM - 10:00 AM": "course_id_7" }
+        },
+        {
+          "day": "Tuesday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_7",
+            "9:30 AM - 10:00 AM": "course_id_8"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "schedule": { "10:30 AM - 12:30 PM": "course_id_8" }
+        },
+        {
+          "day": "Thursday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_7",
+            "9:30 AM - 10:30 AM": "course_id_8"
+          }
+        },
+        {
+          "day": "Friday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_7",
+            "9:00 AM - 10:00 AM": "course_id_8"
+          }
+        }
+      ],
+      "semesters": {
+        "semester_1": {
+          "fees": 5000,
+          "fee_status": "Paid",
+          "courses": {
+            "course_id_5": {
+              "name": "Electromagnetic Fields",
+              "credits": 3,
+              "teacher": "<teacher_id_7>",
+              "location": "Building D, Room 402",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "95",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Mid Assignment",
+                  "deadline": "5 Nov 2023",
+                  "marks": "4",
+                  "questions": {},
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 8,
+                "midterm": 12,
+                "final": { "theory": 20, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 60,
+                "grade": ""
+              }
+            },
+            "course_id_6": {
+              "name": "Introduction to Signals",
+              "credits": 4,
+              "teacher": "<teacher_id_2>",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "100",
+              "assignments": [],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 16,
+                "final": { "theory": 28, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            }
+          }
+        },
+        "semester_2": {
+          "fees": 5000,
+          "fee_status": "Paid",
+          "courses": {
+            "course_id_7": {
+              "name": "Fields and Mining",
+              "credits": 3,
+              "teacher": "<teacher_id_5>",
+              "location": "Building D, Room 404",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "100",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 June 2024",
+                  "marks": "5",
+                  "questions": {
+                    "question_1": "What is the difference between a digital and an analog signal?",
+                    "question_2": "What is the difference between a digital and an analog signal?"
+                  },
+                  "pattern": "Upload pdf file."
+                },
+                {
+                  "id": "assignment_id_2",
+                  "title": "Assignment 2",
+                  "deadline": "20 June 2024",
+                  "marks": "7",
+                  "questions": {
+                    "question_1": "What is the difference between a digital and an analog signal?",
+                    "question_2": "What is the difference between a digital and an analog signal?"
+                  },
+                  "pattern": "Upload docx file."
+                }
+              ],
+              "grades": {
+                "sem_work": 8,
+                "midterm": 10,
+                "final": { "theory": 15, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 60,
+                "grade": ""
+              }
+            },
+            "course_id_8": {
+              "name": "Signals and Systems",
+              "credits": 4,
+              "teacher": "<teacher_id_8>",
+              "location": "Building E, Room 502",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "98",
+              "assignments": [],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 16,
+                "final": { "theory": 28, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "student_id_3": {
+      "cnic": "30000-0000000-3",
+      "name": "Laiba Zafer",
+      "class": "CS-A-2020",
+      "personal_info": {
+        "father_name": "Zafer",
+        "contact_number": "+3100000000",
+        "date_of_birth": "15-11-2001",
+        "gender": "Female",
+        "address": "House 53, Lahore"
+      },
+      "academic_info": {
+        "program": "Computer Science",
+        "degree": "Bachelor's",
+        "session": "2020-2024",
+        "semester": "semester_2",
+        "section": "A",
+        "roll_name": "3001",
+        "registration_number": "2020-UNI-0301",
+        "student_id_card": "Link to student ID card",
+        "class_members": ["student_id_1"],
+        "teacher_list": [
+          "<teacher_id_1>",
+          "<teacher_id_2>",
+          "<teacher_id_3>",
+          "<teacher_id_4>"
+        ],
+        "cgpa": ""
+      },
+      "timetable": [
+        {
+          "day": "Monday",
+          "schedule": { "8:00 AM - 10:00 AM": "course_id_3" }
+        },
+        {
+          "day": "Tuesday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_3",
+            "9:30 AM - 10:00 AM": "course_id_4"
+          }
+        },
+        {
+          "day": "Wednesday",
+          "schedule": { "10:30 AM - 12:30 PM": "course_id_4" }
+        },
+        {
+          "day": "Thursday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_3",
+            "9:30 AM - 10:30 AM": "course_id_4"
+          }
+        },
+        {
+          "day": "Friday",
+          "schedule": {
+            "8:00 AM - 9:00 AM": "course_id_3",
+            "9:00 AM - 10:00 AM": "course_id_4"
+          }
+        }
+      ],
+      "semesters": {
+        "semester_1": {
+          "fees": 5000,
+          "fee_status": "Paid",
+          "courses": {
+            "course_id_1": {
+              "name": "Introduction to Programming",
+              "credits": 3,
+              "teacher": "<teacher_id_1>",
+              "location": "Building A, Room 103",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "83",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 Nov 2023",
+                  "marks": "6",
+                  "questions": {},
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 6,
+                "midterm": 8,
+                "final": { "theory": 15, "practical": 8 },
+                "total_marks": 0,
+                "max_marks": 60,
+                "grade": ""
+              }
+            },
+            "course_id_2": {
+              "name": "Introduction to Computer Science",
+              "credits": 4,
+              "teacher": "<teacher_id_3>",
+              "location": "Building B, Room 205",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "78",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 Dec 2023",
+                  "marks": "20",
+                  "questions": {},
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 10,
+                "midterm": 9,
+                "final": { "theory": 20, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            }
+          }
+        },
+        "semester_2": {
+          "fees": 5000,
+          "fee_status": "Paid",
+          "courses": {
+            "course_id_3": {
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "teacher": "<teacher_id_2>",
+              "location": "Building A, Room 101",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "80",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 June 2024",
+                  "marks": "4",
+                  "questions": {
+                    "question_1": "What is the difference between a digital and an analog signal?",
+                    "question_2": "What is the difference between a digital and an analog signal?"
+                  },
+                  "pattern": "Upload pdf file."
+                },
+                {
+                  "id": "assignment_id_2",
+                  "title": "Assignment 2",
+                  "deadline": "20 June 2024",
+                  "marks": "10",
+                  "questions": {
+                    "question_1": "What is the difference between a digital and an analog signal?",
+                    "question_2": "What is the difference between a digital and an analog signal?"
+                  },
+                  "pattern": "Upload docx file."
+                }
+              ],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 16,
+                "final": { "theory": 25, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            },
+            "course_id_4": {
+              "name": "Assembly Language",
+              "credits": 4,
+              "teacher": "<teacher_id_1>",
+              "location": "Building C, Room 301",
+              "notes": [
+                {
+                  "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+                  "noteImage": [],
+                  "noteDoc": []
+                }
+              ],
+              "attendance": "72",
+              "assignments": [
+                {
+                  "id": "assignment_id_1",
+                  "title": "Assignment 1",
+                  "deadline": "5 June 2024",
+                  "marks": "10",
+                  "questions": {
+                    "question_1": "Define Assembly Langugue",
+                    "question_2": "Its role in Industry"
+                  },
+                  "pattern": "Upload pdf file."
+                }
+              ],
+              "grades": {
+                "sem_work": 12,
+                "midterm": 16,
+                "final": { "theory": 25, "practical": 20 },
+                "total_marks": 0,
+                "max_marks": 80,
+                "grade": ""
+              }
+            }
+          }
+        },
+        "semester_3": { "fees": 5000, "fee_status": "Paid" }
+      }
+    }
+  },
+  "teachers": {
+    "<teacher_id_1>": {
+      "cnic": "30001-0000001-1",
+      "name": "Irfan Khan",
+      "email": "irfan.khan@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "10",
+        "education": "Ph.D in Computer Science"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022"],
+      "teaching_courses": ["course_id_1", "course_id_4"]
+    },
+    "<teacher_id_2>": {
+      "cnic": "30001-0000001-2",
+      "name": "Amir Sheikh",
+      "email": "amir.sheikh@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "16",
+        "education": "Ms in Computer Science & Networking"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022", "EE-B-2020"],
+      "teaching_courses": ["course_id_3", "course_id_6"]
+    },
+    "<teacher_id_3>": {
+      "cnic": "30001-0000001-3",
+      "name": "Usman",
+      "email": "usman@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "6",
+        "education": "Mphill in Computer Science"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022"],
+      "teaching_courses": ["course_id_2"]
+    },
+    "<teacher_id_4>": {
+      "cnic": "30001-0000001-4",
+      "name": "Bushra Zafar",
+      "email": "bushra.zafar@example.com",
+      "personal_info": {
+        "gender": "Female",
+        "designation": "Assistant Professor",
+        "yearsofTeaching": "3",
+        "education": "Ph.D in Computer Science"
+      },
+      "classes_list": ["CS-A-2020", "CS-B-2020", "CS-A-2022"],
+      "teaching_courses": [
+        { "course_id": "course_id_1", "location": "Building A, Room 105" },
+        { "course_id": "course_id_2", "location": "Building B, Room 207" }
+      ]
+    },
+    "<teacher_id_5>": {
+      "cnic": "30001-0000001-5",
+      "name": "Adeel Zahid",
+      "email": "adeel.zahid@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "10",
+        "education": "Ms in Computer Science"
+      },
+      "classes_list": ["EE-A-2020", "EE-B-2020"],
+      "teaching_courses": ["course_id_7"]
+    },
+    "<teacher_id_6>": {
+      "cnic": "30001-0000001-6",
+      "name": "Uzma Jamil",
+      "email": "uzma.jamil@example.com",
+      "personal_info": {
+        "gender": "Female",
+        "designation": "Lecturer",
+        "yearsofTeaching": "10",
+        "education": "Ph.D in Electrical Engineering"
+      },
+      "classes_list": ["EE-A-2020", "EE-B-2020"],
+      "teaching_courses": [
+        { "course_id": "course_id_3", "location": "Building D, Room 404" }
+      ]
+    },
+    "<teacher_id_7>": {
+      "cnic": "30001-0000001-7",
+      "name": "Khurram Shahzad",
+      "email": "khurram@example.com",
+      "personal_info": {
+        "gender": "Male",
+        "designation": "Lecturer",
+        "yearsofTeaching": "8",
+        "education": "Ms in English"
+      },
+      "classes_list": ["EE-A-2020", "EE-B-2020"],
+      "teaching_courses": ["course_id_5"]
+    },
+    "<teacher_id_8>": {
+      "cnic": "30001-0000001-8",
+      "name": "Sarah Garcia",
+      "email": "sarah.garcia@example.com",
+      "personal_info": {
+        "gender": "Female",
+        "designation": "Lecturer",
+        "yearsofTeaching": "1",
+        "education": "Ms in Signals"
+      },
+      "classes_list": [],
+      "teaching_courses": ["course_id_7"]
+    }
+  },
+  "classes": {
+    "CS-A-2020": {
+      "teachers": [
+        "<teacher_id_1>",
+        "<teacher_id_2>",
+        "<teacher_id_3>",
+        "<teacher_id_4>"
+      ],
+      "students": ["student_id_1", "student_id_3"]
+    },
+    "CS-B-2020": {
+      "teachers": [
+        "<teacher_id_1>",
+        "<teacher_id_2>",
+        "<teacher_id_3>",
+        "<teacher_id_4>"
+      ],
+      "students": []
+    },
+    "CS-A-2022": {
+      "teachers": [
+        "<teacher_id_1>",
+        "<teacher_id_2>",
+        "<teacher_id_3>",
+        "<teacher_id_4>"
+      ],
+      "students": []
+    },
+    "EE-A-2020": {
+      "teachers": ["<teacher_id_5>", "<teacher_id_6>", "<teacher_id_7>"],
+      "students": []
+    },
+    "EE-B-2020": {
+      "teachers": [
+        "<teacher_id_2>",
+        "<teacher_id_5>",
+        "<teacher_id_6>",
+        "<teacher_id_7>"
+      ],
+      "students": ["student_id_2"]
+    }
+  },
+  "courses": {
+    "course_id_1": {
+      "name": "Introduction to Programming",
+      "credits": 3,
+      "teacher": "<teacher_id_1>",
+      "location": "Building A, Room 103",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_2": {
+      "name": "Introduction to Computer Science",
+      "credits": 4,
+      "teacher": "<teacher_id_3>",
+      "location": "Building B, Room 205",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_3": {
+      "name": "Digital Logic Design",
+      "credits": 3,
+      "teacher": "<teacher_id_2>",
+      "location": "Building A, Room 101",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_4": {
+      "name": "Assembly Language",
+      "credits": 4,
+      "teacher": "<teacher_id_1>",
+      "location": "Building C, Room 301",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_5": {
+      "name": "Electromagnetic Fields",
+      "credits": 3,
+      "teacher": "<teacher_id_7>",
+      "location": "Building D, Room 402",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_6": {
+      "name": "Introduction to Signals",
+      "credits": 4,
+      "teacher": "<teacher_id_2>",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_7": {
+      "name": "Fields and Mining",
+      "credits": 3,
+      "teacher": "<teacher_id_5>",
+      "location": "Building D, Room 404",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_8": {
+      "name": "Signals and Systems",
+      "credits": 4,
+      "teacher": "<teacher_id_8>",
+      "location": "Building E, Room 502",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    }
+  },
+  "admin": {
+    "email": "admin@gmail.com",
+    "news_and_alerts": {
+      "news_updates": {
+        "<news_id_1>": {
+          "title": "Important Announcement",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "timestamp": "<timestamp>"
+        },
+        "<news_id_2>": {}
+      },
+      "notifications": {
+        "<notification_id_1>": {
+          "title": "Emergency Alert",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "timestamp": "<timestamp>"
+        },
+        "<notification_id_2>": {}
+      }
+    }
+  }
+}

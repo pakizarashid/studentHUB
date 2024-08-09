@@ -1,0 +1,107 @@
+{
+  "courses": {
+    "course_id_1": {
+      "name": "Introduction to Programming",
+      "credits": 3,
+      "teacher": "<teacher_id_1>",
+      "location": "Building A, Room 103",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_2": {
+      "name": "Introduction to Computer Science",
+      "credits": 4,
+      "teacher": "<teacher_id_3>",
+      "location": "Building B, Room 205",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_3": {
+      "name": "Digital Logic Design",
+      "credits": 3,
+      "teacher": "<teacher_id_2>",
+      "location": "Building A, Room 101",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_4": {
+      "name": "Assembly Language",
+      "credits": 4,
+      "teacher": "<teacher_id_1>",
+      "location": "Building C, Room 301",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_5": {
+      "name": "Electromagnetic Fields",
+      "credits": 3,
+      "teacher": "<teacher_id_7>",
+      "location": "Building D, Room 402",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_6": {
+      "name": "Introduction to Signals",
+      "credits": 4,
+      "teacher": "<teacher_id_2>",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_7": {
+      "name": "Fields and Mining",
+      "credits": 3,
+      "teacher": "<teacher_id_5>",
+      "location": "Building D, Room 404",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    },
+    "course_id_8": {
+      "name": "Signals and Systems",
+      "credits": 4,
+      "teacher": "<teacher_id_8>",
+      "location": "Building E, Room 502",
+      "notes": [
+        {
+          "noteText": [{ "content": "Lorem ipsum dolor sit amet." }],
+          "noteImage": [],
+          "noteDoc": []
+        }
+      ]
+    }
+  }
+}

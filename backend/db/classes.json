@@ -1,0 +1,44 @@
+{
+  "classes": {
+    "CS-A-2020": {
+      "teachers": [
+        "<teacher_id_1>",
+        "<teacher_id_2>",
+        "<teacher_id_3>",
+        "<teacher_id_4>"
+      ],
+      "students": ["student_id_1", "student_id_3"]
+    },
+    "CS-B-2020": {
+      "teachers": [
+        "<teacher_id_1>",
+        "<teacher_id_2>",
+        "<teacher_id_3>",
+        "<teacher_id_4>"
+      ],
+      "students": []
+    },
+    "CS-A-2022": {
+      "teachers": [
+        "<teacher_id_1>",
+        "<teacher_id_2>",
+        "<teacher_id_3>",
+        "<teacher_id_4>"
+      ],
+      "students": []
+    },
+    "EE-A-2020": {
+      "teachers": ["<teacher_id_5>", "<teacher_id_6>", "<teacher_id_7>"],
+      "students": []
+    },
+    "EE-B-2020": {
+      "teachers": [
+        "<teacher_id_2>",
+        "<teacher_id_5>",
+        "<teacher_id_6>",
+        "<teacher_id_7>"
+      ],
+      "students": ["student_id_2"]
+    }
+  }
+}
