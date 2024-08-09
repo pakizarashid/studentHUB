@@ -48,14 +48,14 @@ I envision enhancing this app further by making it more secure and integrating A
 <table>
  
  <tr>
-   <td width="33.3%">&nbsp;<img src="./readme_assets/1.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/2.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/3.jpg" alt="Splash Screen"></td>
+   <td width="33.3%">&nbsp;<img src="./readme_assets/SplashScreen.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/2.jpg" alt="Home Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/Dashboard.jpg" alt="Dashboard Screen"></td>
  </tr>
  <tr>
    <td align="center">Splash Screen</td>
-   <td align="center">Home Page</td>
-   <td align="center">Class Notes</td>
+   <td align="center">Login Screen</td>
+   <td align="center">Home Screen</td>
  </tr>
  
  <tr>
