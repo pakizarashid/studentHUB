@@ -69,25 +69,25 @@ I envision enhancing this app further by making it more secure and integrating A
  </tr>
 
  <tr>
-   <td width="33.3%">&nbsp;<img src="./readme_assets/InAppMessages.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/notemenu.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/NoteScreen.jpg" alt="Splash Screen"></td>
+   <td width="33.3%">&nbsp;<img src="./readme_assets/academics.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/feescreen.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/MenuScreen.jpg" alt="Splash Screen"></td>
  </tr>
  <tr>
-   <td align="center">Announcements</td>
-   <td align="center">Notes Menu</td>
-   <td align="center">Notes</td>
+   <td align="center">Academics</td>
+   <td align="center">Fee</td>
+   <td align="center">Menu/td>
  </tr>
 
  <tr>
-   <td width="33.3%">&nbsp;<img src="./readme_assets/InAppMessages.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/notemenu.jpg" alt="Splash Screen"></td>
-   <td width="33.33%">&nbsp;<img src="./readme_assets/NoteScreen.jpg" alt="Splash Screen"></td>
+   <td width="33.3%">&nbsp;<img src="./readme_assets/ScheduleScreen.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/location.jpg" alt="Splash Screen"></td>
+   <td width="33.33%">&nbsp;<img src="./readme_assets/helpscreen.jpg" alt="Splash Screen"></td>
  </tr>
  <tr>
-   <td align="center">Announcements</td>
-   <td align="center">Notes Menu</td>
-   <td align="center">Notes</td>
+   <td align="center">Schedule Screen</td>
+   <td align="center">Location Screen</td>
+   <td align="center">Help Screen</td>
  </tr>
   
 </table>
